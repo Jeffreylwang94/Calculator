@@ -42,7 +42,8 @@ buttonGrid.addEventListener("click",(e) => {
         console.log(2);
     } else {
         console.log(3);
-    // } else if (operandDecoder(e.target.textContent){
+    // } else if (operandDecoder(e.target.textContent)){
+        console.log(2.5)
         currNum2 = displayValue;
         displayValue = operate(currOperator,currNum1,currNum2);
         currNum1 = displayValue;
@@ -51,12 +52,11 @@ buttonGrid.addEventListener("click",(e) => {
         if (operandDecoder(e.target.textContent)){
             currOperator = operandDecoder(e.target.textContent);
         }
-        // currNum2 = undefined;
-    // } else (e.target.textContent === "="){
-    //     if(currNum1 != undefined){
-    //         currNum1 = displayValue;
-    //     } else if ()
     }
+    // } else if (e.target.textContent === "="){
+        // console.log("=");
+        // currNum2 = displayValue;
+    // }
 })
 
 
