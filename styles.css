@@ -1,0 +1,36 @@
+* {
+    /* border: 2px solid red; */
+    /* height: 100vh; */
+}
+
+body, html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-grid{
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+button{
+    height: 10vh;
+    width: 10vh;
+}
+
+.output{
+    height: 50px;
+    width: 40vh;
+    background-color: lightgrey;
+    border: 1px darkslategrey solid;
+    text-align: end;
+    vertical-align: bottom;
+}
